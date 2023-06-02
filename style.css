@@ -1,0 +1,131 @@
+body {
+  font-family: Calibri;
+}
+#right {
+  width: 40%;
+  float: right;
+  direction: rtl;
+}
+#left {
+  width: 60%;
+  float: left;
+  direction: rtl;
+}
+th,
+td {
+  font-size: xx-large;
+  width: 10%;
+  text-align: center;
+  padding-top: 35px;
+}
+h1 {
+  text-align: center;
+}
+.green {
+  color: green;
+}
+.brown {
+  color: brown;
+}
+table {
+  margin: 50px 0;
+}
+#box1 {
+  border: 2px solid green;
+  border-radius: 5px;
+  text-align: right;
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+}
+#box2 {
+  border: 2px solid brown;
+  border-radius: 5px;
+  text-align: right;
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+}
+#box3 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  padding-bottom: 30px;
+}
+#calc {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  font-family: Calibri;
+  float: left;
+  font-size: x-large;
+  border-radius: 4px;
+}
+#calc:hover {
+  background-color: darkgreen;
+}
+#add {
+  color: white;
+  background-color: brown;
+  border: 1px solid brown;
+  font-family: Calibri;
+  float: left;
+  font-size: x-large;
+  border-radius: 4px;
+}
+#add:hover {
+  background-color: darkred;
+}
+img {
+  width: 64px;
+  height: 64px;
+}
+input {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 100%;
+  font-family: Calibri;
+  font-size: x-large;
+}
+.bin {
+  width: 40px;
+  height: 40px;
+}
+.bin:hover {
+  filter: contrast(70%);
+}
+#clear {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 10px;
+  color: white;
+  background-color: brown;
+  border: 1px solid brown;
+  font-family: Calibri;
+  font-size: x-large;
+  border-radius: 4px;
+}
+#clear:hover {
+  background-color: darkred;
+}
+#save {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  font-family: Calibri;
+  font-size: x-large;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: auto;
+}
+#save:hover {
+  background-color: darkgreen;
+}

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>پروژه پایانی</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="right">
+      <h1>مدیریت هزینه ها</h1>
+      <div id="box1">
+        <p>لطفا بودجه اولیه خود را وارد کنید</p>
+        <input type="number" id="intialBudget" />
+        <br />
+        <button id="calc" type="button">محاسبه</button>
+        <br />
+      </div>
+      <div id="box2">
+        <p>لطفا عنوان هزینه را وارد کنید</p>
+        <input type="text" id="title" />
+        <p>لطفا مقدار عنوان هزینه را وارد کنید</p>
+        <input type="number" id="cost" />
+        <br />
+        <button id="add" type="button">اضافه کردن هزینه</button>
+        <br />
+      </div>
+      <div id="box3">
+        <button id="save">ذخیره داده ها</button>
+        <button id="clear">پاک کردن داده ها</button>
+      </div>
+    </div>
+    <div id="left">
+      <table>
+        <tr>
+          <th>بودجه</th>
+          <th>هزینه ها</th>
+          <th>موجودی</th>
+        </tr>
+        <tr>
+          <td><img src="image/budget.png" alt="بودجه" /></td>
+          <td><img src="image/cost.png" alt="هزینه ها" /></td>
+          <td><img src="image/cash.png" alt="موجودی" /></td>
+        </tr>
+        <tr>
+          <td id="budget" class="green">$0</td>
+          <td id="totalCost" class="brown">$0</td>
+          <td id="balance" class="green">$0</td>
+        </tr>
+        <tr>
+          <td>نوع هزینه</td>
+          <td>مقدار هزینه</td>
+        </tr>
+        <br />
+      </table>
+    </div>
+  </body>
+</html>
